@@ -1,0 +1,217 @@
+body{
+    margin:0;
+        background-color: rgb(0, 89, 152);
+}
+
+.main{
+    display:flex;
+    height: 100%;
+}
+.side-bar{
+    background-color:rgb(0, 89, 152);
+    width: 20%;
+    padding: 10px;
+    
+}
+
+*{
+    color:white;
+}
+
+.header{
+    text-align: center;
+}
+
+.header img{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+li{
+    padding: 5px 0;
+}
+
+.side-bar a{
+    text-decoration: none;
+    display:block;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: lightblue;
+}
+
+ a:hover i,a:hover span {
+     color: black;
+ }
+
+.bi {
+    color: white;
+    margin-right: 5px;
+}
+
+h2{
+    margin:0;
+}
+
+.admin,li{
+    border-bottom: 2px solid white;
+}
+
+.main-area{
+    width: 100%;
+}
+
+.navbar{
+    padding: 5px 10px;
+    display:flex;
+    background-color: rgb(0, 89, 152);
+}
+
+.navbar span{
+    padding: 2px;
+    font-weight: bold;
+}
+
+.navbar span::after{
+    content: " |"
+}
+
+.navbar span:last-child::after{
+    content: '';
+}
+
+.navbar span.second-last::after{
+    content: '';
+}
+
+.last{
+    margin-left:auto;
+}
+
+.white{
+    height: 30px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.final{
+    background-color: rgb(208, 243, 255);
+    padding: 25px 45px;
+}
+
+.summary-block{
+    display:flex;
+    margin-bottom: 40px;
+}
+
+.inner-block{
+    width: 25%;
+    background-color: rgb(0, 89, 152);
+    margin-right: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.inner-block i{
+    font-size: 45px;
+    padding: 10px 0;
+}
+
+.inner-block p{
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inner-block span{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.inner-block:last-child{
+    margin: 0;
+}
+
+.black h2{
+    color: black
+}
+
+.black table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.black table,.black tr,.black td,.black th{
+    border: 3px solid rgb(208, 243, 255);
+}
+
+.black td{
+    background-color: skyblue;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.black td:first-child{
+    text-align: right;
+    font-weight:normal;
+}
+
+
+.black th{
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.twin-table h3{
+    color:black;
+    margin: 0;
+}
+
+.twin-table table{
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.twin-table th{
+    background-color: black;
+    text-align: left;
+}
+
+.twin-table td{
+    background-color: skyblue;
+    color:black;
+    text-align: center;
+    font-weight:700;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.table-link{
+    margin-left: auto;
+    color: blue;
+}
+
+.table-link a{
+    color: blue;
+}
+
+.first-table{
+    margin-bottom: 40px;
+}
+
+
